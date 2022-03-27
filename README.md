@@ -1,2 +1,2 @@
 # eatgood
-Eatery website that will make you drool
+Eatery website that will make you drool 🤤
