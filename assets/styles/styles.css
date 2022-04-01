@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-size: 2rem;
+  background-color: rgba(253, 249, 236, 1);
+}
+
+section {
+  padding: 1.5rem 7%;
+}
+
+/* *************NAVBAR************ */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  position: fixed;
+  min-width: 100vw;
+  top: 0;
+  padding: 1.5rem 7%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.navbar__links ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__links li {
+  margin-left: 1.5rem;
+}
+
+.navbar__links li a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.navbar__links li a:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+.navbar__logo {
+  font-size: 2.5rem;
+}
+
+/* **************** HOME HERO***************** */
+.home {
+  background: cover center url(/src/assets/img/home-bg.jpg);
+  display: flex;
+  gap: 1rem;
+  min-height: 100vh;
+  top: calc(100vh - 3rem);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h3 {
+  font-size: 3rem;
+}
+
+.home__hero-description {
+  font-size: 2rem;
+  flex: 1 1 20rem;
+}
+
+.home img {
+  width: 100%;
+}
+
+h3 {
+}
